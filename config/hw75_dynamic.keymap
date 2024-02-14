@@ -54,14 +54,14 @@
 		};
 
 		scroll {
-			label = "滚动";
+			label = "滾動";
 			icon = [EF 86 8A];
 			bindings = <&trans &trans>;
 			sensor-bindings = <&inc_dec_mw MW_DN(1) MW_UP(1)>;
 		};
 
 		tasks {
-			label = "窗口";
+			label = "視窗";
 			icon = [EF 85 9E];
 			bindings = <&trans &trans>;
 			sensor-bindings = <&switch_tasks>;
